@@ -17,3 +17,7 @@ Route::get('/', 'SiteController@index');
 Route::get('/catalog/{category}', function ($category){
     dump($category);
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
