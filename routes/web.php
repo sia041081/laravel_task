@@ -21,3 +21,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/site', 'SiteController@site')->name('site');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
