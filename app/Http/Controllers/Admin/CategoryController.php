@@ -27,7 +27,7 @@ class CategoryController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.category.create');
     }
 
     /**
@@ -38,7 +38,9 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
-        //
+       Category::create($request->except('_token'));
+       return redirect()->route('dashboard');
+
     }
 
     /**
@@ -60,7 +62,8 @@ class CategoryController extends Controller
      */
     public function edit($id)
     {
-        //
+        $category = Category::findOrFail($id);
+        return view('admin.category.edit', ['category' => $category]);
     }
 
     /**
@@ -72,7 +75,11 @@ class CategoryController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $category =Category::findOrFail($id);
+        $category->fill($request->all());
+        $category->isActive = $request->input('isActive', false);
+        $category->save();
+        return redirect()->route('dashboard');
     }
 
     /**

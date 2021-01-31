@@ -21,7 +21,15 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/site', 'SiteController@site')->name('site');
-Route::get('/admins', 'Admin\\CategoryController@index');
+Route::get('/admins', 'Admin\\CategoryController@index')->name('dashboard');
+Route::get('/admins/category/create', 'Admin\\CategoryController@create')
+    ->name('admin_create_category');
+Route::post('/admins/category/create', 'Admin\\CategoryController@store')
+    ->name('admin_category_store');
+Route::get('/admins/category/{id}/create', 'Admin\\CategoryController@edit')
+    ->name('admin_category_edit');
+Route::put('/admins/category/{id}/update', 'Admin\\CategoryController@update')
+    ->name('admin_category_update');
 
 Auth::routes();
 
