@@ -7,7 +7,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -127,9 +127,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/product" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\openserver\OpenServer\domains\home.test\resources\views\admin\product" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\openserver\OpenServer\domains\home.test\public\Admin" />
       <recent name="D:\openserver\OpenServer\domains\home.test\public" />
@@ -151,7 +154,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612072161194</updated>
-      <workItem from="1612072163600" duration="24219000" />
+      <workItem from="1612072163600" duration="26449000" />
+      <workItem from="1612152833886" duration="4736000" />
     </task>
     <servers />
   </component>
@@ -163,5 +167,13 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="493" y="261" key="#Composer/0.0.1366.738@0.0.1366.738" timestamp="1612072179501" />
+    <state x="413" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1612156467344">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1612156467344" />
+    <state x="339" y="167" key="run.anything.popup" timestamp="1612155199710">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="167" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1612155199710" />
   </component>
 </project>
